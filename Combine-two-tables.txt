@@ -1,0 +1,6 @@
+# https://leetcode.com/problems/combine-two-tables/description/
+
+
+Select FirstName, LastName, City, State
+From Person Left Join Address
+On Address.PersonId = Person.PersonId;
